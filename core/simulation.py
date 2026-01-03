@@ -23,3 +23,13 @@ def simulate_capital(
         capital_with_fee.append(c_with_fee)
 
     return capital_no_fee, capital_with_fee
+
+
+def capital_steps_table(capital_list, step):
+    steps_data = []
+    current_step = step
+    for i, value in enumerate(capital_list):
+        if value >= current_step:
+            steps_data.append((current_step, round(i / 12, 2)))  # (palier, années)
+            current_step += step
+    return steps_data
