@@ -2,4 +2,4 @@ streamlit
 numpy
 pandas
 matplotlib
-# python -m streamlit run app.py
+# python -m streamlit run 0_🏠_Accueil.py
