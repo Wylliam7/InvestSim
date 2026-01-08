@@ -23,7 +23,7 @@ st.info("👉 Utilisez le menu de gauche pour naviguer entre les pages.")
 st.markdown("---")
 st.markdown("## 🚀 Fonctionnalités disponibles")
 
-# --- Fonctionnalité 1
+
 st.markdown("""
 ### 1️⃣ Simulation de capital avec frais de gestion 
 
@@ -44,7 +44,7 @@ L’application vous affiche:
 - L'impact réel des frais sur le long terme à l’aide d’un graphique interactif
 """)
 
-# --- Fonctionnalité 2
+
 st.markdown("""
 ### 2️⃣ Simulation des paliers de capital
 

@@ -1,4 +1,4 @@
-# pages/3_🎯_Objectif.py
+
 
 import streamlit as st
 from core.simulation import monthly_investment_for_goal

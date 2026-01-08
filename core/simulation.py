@@ -52,10 +52,10 @@ def monthly_investment_for_goal(
     monthly_return = (annual_return - annual_fee) / 100 / 12
 
     if monthly_return <= 0:
-        # Cas sans rendement (ou rendement négatif)
+        
         return (target_amount - capital_initial) / months
 
-    # Formule financière
+   
     factor = (1 + monthly_return) ** months
     monthly_investment = (target_amount - capital_initial * factor) * monthly_return / (factor - 1)
 
