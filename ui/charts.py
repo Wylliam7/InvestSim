@@ -42,3 +42,5 @@ def plot_capital_interactive(capital_no_fee, capital_with_fee, years):
     )
 
     return fig
+
+

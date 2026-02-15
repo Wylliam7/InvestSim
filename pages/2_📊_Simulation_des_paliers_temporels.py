@@ -40,3 +40,4 @@ df = pd.DataFrame({
 
 st.subheader(f"Temps pour atteindre chaque palier ({step:,.0f} $)")
 st.dataframe(df)
+

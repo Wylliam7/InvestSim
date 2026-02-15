@@ -8,6 +8,7 @@ def simulate_capital(
     months = years * 12
     monthly_return = annual_return / 100 / 12
     monthly_fee = annual_fee / 100 / 12
+    
 
     capital_no_fee = []
     capital_with_fee = []
